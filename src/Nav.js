@@ -1,21 +1,14 @@
-function Nav(){
-return(
-<nav className="Nav">
-<ul>
-    <li>
-       Home
-    </li>
-    <li>
-        About
-    </li>
-    <li>Menu</li>
-    <li>Reservation</li>
-    <li>Order online</li>
-    <li>Login</li>
-</ul>
+import { Link } from "react-router-dom";
 
-</nav>
-);
-
+function Nav() {
+  return (
+    <nav className="nav">
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/booking">Reserve</Link></li>
+      </ul>
+    </nav>
+  );
 }
+
 export default Nav;

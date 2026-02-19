@@ -1,8 +1,9 @@
-function Footer(){
-    return(
-        <footer className="footer">
-            About the site
-        </footer>
-    )
+function Footer() {
+  return (
+    <footer>
+      <p>© 2026 Little Lemon. All rights reserved.</p>
+    </footer>
+  );
 }
+
 export default Footer;

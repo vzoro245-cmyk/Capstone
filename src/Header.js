@@ -1,8 +1,9 @@
-function Header (){
-    return(
-        <header className="header">
-            <img src="./images/airbnb-logo.png" className="header--image"/>
-        </header>
-    )
+function Header() {
+  return (
+    <header className="header">
+      <img src="https://your-image-link-here.com/logo.png" alt="Little Lemon Logo" />
+    </header>
+  );
 }
+
 export default Header;
