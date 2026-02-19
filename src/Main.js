@@ -1,6 +1,6 @@
 function Main(){
     return(
-        <main>
+        <main className="main">
             <article>
                 o Mencham é burro
             </article>

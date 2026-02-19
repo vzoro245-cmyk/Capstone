@@ -1,9 +1,7 @@
 function Header (){
     return(
-        <header>
-            <h1>
-                O meu primeiro
-            </h1>
+        <header className="header">
+            <img src="./images/airbnb-logo.png" className="header--image"/>
         </header>
     )
 }

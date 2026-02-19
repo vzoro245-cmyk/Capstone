@@ -1,6 +1,6 @@
 function Footer(){
     return(
-        <footer>
+        <footer className="footer">
             About the site
         </footer>
     )

@@ -1,6 +1,6 @@
 function Nav(){
 return(
-<nav>
+<nav className="Nav">
 <ul>
     <li>
        Home
@@ -8,6 +8,10 @@ return(
     <li>
         About
     </li>
+    <li>Menu</li>
+    <li>Reservation</li>
+    <li>Order online</li>
+    <li>Login</li>
 </ul>
 
 </nav>
